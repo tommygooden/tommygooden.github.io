@@ -2,98 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Tommy Gooden - Software Engineer</title>
   </head>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Tommy Gooden</h1>
-        <h2>Software Engineer & Technology Innovator</h2>
-        <a href="https://github.com/tommygooden" class="button"><small>View my work on</small>GitHub</a>
+  <body class="bg-gray-50">
+    <header class="bg-gradient-to-r from-primary to-secondary py-24 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <h1 class="text-6xl font-bold text-white mb-4">Tommy Gooden</h1>
+        <h2 class="text-2xl text-blue-100 opacity-90">Software Engineer & Technology Innovator</h2>
+        <a href="https://github.com/tommygooden" class="btn mt-8">
+          <small class="block text-sm">View my work on</small>
+          GitHub
+        </a>
       </div>
     </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <div class="intro">
-            <h2>Building Digital Solutions</h2>
-            <p>Specialized in developing scalable applications and innovative software solutions. With expertise in modern web technologies and cloud architecture, I focus on creating efficient, maintainable, and user-centric applications.</p>
-          </div>
+    <main class="max-w-7xl mx-auto px-6 py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div class="lg:col-span-2">
+          <section class="mb-24">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Building Digital Solutions</h2>
+            <p class="text-xl text-gray-600 leading-relaxed">Specialized in developing scalable applications and innovative software solutions. With expertise in modern web technologies and cloud architecture, I focus on creating efficient, maintainable, and user-centric applications.</p>
+          </section>
 
-          <div class="expertise">
-            <h3>Core Expertise</h3>
-            <div class="expertise-grid">
-              <div class="expertise-card">
-                <h4>Architecture & Design</h4>
-                <p>Designing scalable systems and microservices architectures with a focus on performance and maintainability.</p>
+          <section class="mb-24">
+            <h3 class="text-3xl font-semibold text-gray-900 mb-12">Core Expertise</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="card">
+                <h4 class="text-xl font-semibold text-primary mb-4">Architecture & Design</h4>
+                <p class="text-gray-600">Designing scalable systems and microservices architectures with a focus on performance and maintainability.</p>
               </div>
-              <div class="expertise-card">
-                <h4>Cloud Solutions</h4>
-                <p>Implementing cloud-native applications using AWS, containerization, and serverless technologies.</p>
+              <div class="card">
+                <h4 class="text-xl font-semibold text-primary mb-4">Cloud Solutions</h4>
+                <p class="text-gray-600">Implementing cloud-native applications using AWS, containerization, and serverless technologies.</p>
               </div>
-              <div class="expertise-card">
-                <h4>Modern Development</h4>
-                <p>Building with React, Node.js, and TypeScript while following best practices and design patterns.</p>
+              <div class="card">
+                <h4 class="text-xl font-semibold text-primary mb-4">Modern Development</h4>
+                <p class="text-gray-600">Building with React, Node.js, and TypeScript while following best practices and design patterns.</p>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div class="projects">
-            <h3>Featured Work</h3>
-            <div class="project-grid">
-              <div class="project-card">
-                <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="Enterprise Architecture">
-                <h4>Enterprise Platform</h4>
-                <p>A scalable microservices architecture powering business operations across multiple regions.</p>
-                <div class="tech-stack">
-                  <span>Node.js</span>
-                  <span>AWS</span>
-                  <span>MongoDB</span>
+          <section>
+            <h3 class="text-3xl font-semibold text-gray-900 mb-12">Featured Work</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="card overflow-hidden">
+                <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="Enterprise Architecture" class="w-full h-60 object-cover -mx-8 -mt-8 mb-6">
+                <h4 class="text-xl font-semibold text-gray-900 mb-4">Enterprise Platform</h4>
+                <p class="text-gray-600 mb-6">A scalable microservices architecture powering business operations across multiple regions.</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">Node.js</span>
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">AWS</span>
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">MongoDB</span>
                 </div>
               </div>
-              <div class="project-card">
-                <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Analytics Dashboard">
-                <h4>Analytics Suite</h4>
-                <p>Real-time analytics dashboard processing millions of data points for actionable insights.</p>
-                <div class="tech-stack">
-                  <span>React</span>
-                  <span>TypeScript</span>
-                  <span>GraphQL</span>
+              <div class="card overflow-hidden">
+                <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Analytics Dashboard" class="w-full h-60 object-cover -mx-8 -mt-8 mb-6">
+                <h4 class="text-xl font-semibold text-gray-900 mb-4">Analytics Suite</h4>
+                <p class="text-gray-600 mb-6">Real-time analytics dashboard processing millions of data points for actionable insights.</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">React</span>
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">TypeScript</span>
+                  <span class="px-4 py-2 bg-gray-100 text-primary rounded-full text-sm font-medium">GraphQL</span>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
-        <aside id="sidebar">
-          <div class="contact-section">
-            <h3>Connect</h3>
-            <div class="contact-links">
-              <a href="https://github.com/tommygooden" class="contact-link github">GitHub</a>
-              <a href="https://linkedin.com/in/tommygooden" class="contact-link linkedin">LinkedIn</a>
-              <a href="mailto:contact@tommygooden.com" class="contact-link email">Email</a>
+        <aside>
+          <div class="card mb-8">
+            <h3 class="text-xl font-semibold text-gray-900 mb-6">Connect</h3>
+            <div class="flex flex-col gap-3">
+              <a href="https://github.com/tommygooden" class="px-6 py-4 bg-gray-100 text-gray-900 rounded-xl hover:bg-primary hover:text-white transition-colors duration-300">GitHub</a>
+              <a href="https://linkedin.com/in/tommygooden" class="px-6 py-4 bg-gray-100 text-gray-900 rounded-xl hover:bg-primary hover:text-white transition-colors duration-300">LinkedIn</a>
+              <a href="mailto:contact@tommygooden.com" class="px-6 py-4 bg-gray-100 text-gray-900 rounded-xl hover:bg-primary hover:text-white transition-colors duration-300">Email</a>
             </div>
           </div>
-          
-          <div class="skills-section">
-            <h3>Technical Stack</h3>
-            <div class="skills-list">
-              <div class="skill-item">React & TypeScript</div>
-              <div class="skill-item">Node.js & Express</div>
-              <div class="skill-item">AWS & Cloud Architecture</div>
-              <div class="skill-item">MongoDB & PostgreSQL</div>
-              <div class="skill-item">Docker & Kubernetes</div>
-              <div class="skill-item">CI/CD & DevOps</div>
+
+          <div class="card">
+            <h3 class="text-xl font-semibold text-gray-900 mb-6">Technical Stack</h3>
+            <div class="flex flex-col">
+              <div class="py-4 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors duration-300">React & TypeScript</div>
+              <div class="py-4 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors duration-300">Node.js & Express</div>
+              <div class="py-4 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors duration-300">AWS & Cloud Architecture</div>
+              <div class="py-4 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors duration-300">MongoDB & PostgreSQL</div>
+              <div class="py-4 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors duration-300">Docker & Kubernetes</div>
+              <div class="py-4 text-gray-600 hover:text-primary transition-colors duration-300">CI/CD & DevOps</div>
             </div>
           </div>
         </aside>
       </div>
-    </div>
+    </main>
   </body>
 </html>
